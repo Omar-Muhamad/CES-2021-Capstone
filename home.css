@@ -166,6 +166,85 @@ ul {
   padding-bottom: 60px;
 }
 
+/* ############ Main Program Section ############ */
+
+.mainProgram {
+  background-image: url(./images/pattern-bg.png);
+  background-repeat: repeat;
+  background-color: #272a32;
+  height: 100%;
+}
+
+.sectionCont{
+  padding: 60px 0;
+  width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+}
+
+.sectionTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectionTitle h2 {
+  font-size: 1.7em;
+  font-weight: bold;
+  color: #f5f5f5;
+}
+
+.sectionTitle hr {
+width: 55px;
+border: 1px solid #ef513c;
+margin-top:10px;
+}
+
+.programList {
+  margin-top: 55px;
+}
+
+.pListItem {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 16px 7px;
+  margin-bottom: 7px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.progIcon img{
+  width: 65px;
+  height: 60px;
+  flex: 1;
+}
+
+.progTitle {
+  flex: 1;
+  color: #ef513c;
+}
+
+.progDescribtion {
+  flex: 2;
+  color: #f5f5f5;
+  font-size: .9em;
+  font-weight: 400;
+}
+
+.seeAllProg {
+  padding: 15px 25px;
+  background-color: #ef513c;
+  font-size: 1.1em;
+  color: #f5f5f5;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+
 /* ###################### Desktop Version ###################### */
 
 @media only screen and (min-width: 768px){
@@ -305,4 +384,68 @@ ul {
     padding-bottom: 0px;
   }
 
+  /* ############ Main Program Section ############ */
+
+
+  .sectionCont{
+    max-width: 1100px;
+    width: 98%;
+  }
+  
+  .sectionTitle h1 {
+    font-size: 2em;
+  }
+  
+  .sectionTitle hr {
+    margin-top: 15px;
+  }
+  
+  .programList {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+  }
+  
+  .pListItem {
+    padding: 30px 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    gap: 15px;
+  }
+  
+  .progIcon img{
+    width: 65px;
+    height: 60px;
+    flex: none;
+  }
+  
+  .progTitle {
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    flex: none;
+  }
+  
+  .progDescribtion {
+    flex: none;
+    font-weight: 300;
+    text-align: center;
+  }
+  
+  .seeAllProg {
+    padding: 0;
+    background-color: transparent;
+    font-size: 1.1em;
+    line-height: 1.1em;
+    word-spacing: 2px;
+    color: #f5f5f5;
+    text-align: center;
+    margin-top: 50px;
+    border-bottom: 1px solid #f5f5f5;
+    padding-bottom: 3px;
+  }
 }
