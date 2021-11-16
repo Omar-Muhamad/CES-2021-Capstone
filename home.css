@@ -38,12 +38,16 @@ ul {
 
 .mainMenu {
   width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  /* background-color: #fff; */
 }
 
 .mainMenuCont {
   width:85%;
-  height: 70px;
   margin: 0 auto;
+  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,13 +66,15 @@ ul {
   flex-direction: row-reverse;
   justify-content: space-between;
   position: absolute;
+  z-index: 3;
   top: 0;
   bottom: 0;
   left: 0;
   width: 100%;
+  height: 100vh;
   padding: 27px 7.55%;
   background: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(4px);
 }
 
 #mainNav .fa-times {
@@ -108,6 +114,58 @@ ul {
   transition: 0.5s;
 }
 
+/* ############ Hero Section ############ */
+
+.hero {
+  width: 100%;
+  padding-top: 50px;
+  background-image: url(./images/mobile-hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: 75%;
+  background-size: cover;
+  height: auto;
+}
+
+.mainHeading {
+  padding-top: 70px;
+  width: 90%;
+  margin: auto;
+}
+
+.mainHeading img {
+  width: 100%;
+}
+
+.message {
+  width: 95%;
+  margin: 20px auto;
+  padding: 1em 1em;
+  border: 4px solid #fff;
+  background-color: #f7f7f8;
+  color: #575757;
+  line-height: 1.9em;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.dateAndLocation {
+  width: 90%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.dateAndLocation h2 {
+  color: #575757;
+  font-weight: 800;
+}
+
+.dateAndLocation h4 {
+  margin-top: 10px;
+  font-weight: 500;
+  padding-bottom: 60px;
+}
+
 /* ###################### Desktop Version ###################### */
 
 @media only screen and (min-width: 768px){
@@ -116,6 +174,8 @@ ul {
   .topMenu {
     display: block;
     width: 100%;
+    position: fixed;
+    top: 0;
     background-color: #3e3e3e;
   }
 
@@ -147,7 +207,9 @@ ul {
   /* ############ Main nav Menu ############ */
 
   .mainMenu {
+    top: 36px;
     width: 100%;
+    background-color: #fff;
     box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
   }
   
@@ -187,4 +249,60 @@ ul {
     margin-top: 0px;
     font-size: 1em;
   }
+
+  /* ############ Hero Section ############ */
+  .hero {
+    width: 100%;
+    margin-top: 113px;
+    height: 855px;
+    background-image: url(./images/desktop-bg.png);
+    background-repeat: no-repeat;
+    background-position:60%;
+    background-size:cover;
+  }
+  
+  .heroCont {
+    max-width: 1100px;
+    width: 98%;
+    margin: auto;
+  }
+  .mainHeading {
+    padding-top: 80px;
+    width: auto;
+    margin: auto;
+  }
+  
+  .mainHeading img {
+    width: auto;
+  }
+  
+  .message {
+    width: 60%;
+    margin: 20px 0;
+    color: #575757;
+    line-height: 1.5em;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .dateAndLocation {
+    width: 60%;
+    margin: 0px;
+    margin-top: 35px;
+    text-align: left;
+  }
+  
+  .dateAndLocation h2 {
+    color: #575757;
+    font-size: 35px;
+    font-weight: 900;
+  }
+  
+  .dateAndLocation h4 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 0px;
+  }
+
 }
