@@ -8,9 +8,13 @@
 
 /* ############ General Changes ############ */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Lato', sans-serif;
-  color: #333;
+  color: #272a31;
 }
 
 a {
@@ -19,7 +23,7 @@ a {
 }
 
 a:hover {
-  color: #ef513c;
+  color: #ec5242;
 }
 
 ul {
@@ -38,10 +42,10 @@ ul {
 
 .mainMenu {
   width: 100%;
-  position: fixed;
+  position: absolute;
   top: 0;
   z-index: 2;
-  /* background-color: #fff; */
+  
 }
 
 .mainMenuCont {
@@ -54,7 +58,7 @@ ul {
 }
 
 .logo img {
-  width: 75%;
+  width: 65%;
 }
 
 #mainNav {
@@ -93,14 +97,14 @@ ul {
 }
 
 .aboutLink {
-  color: #ef513c;
+  color: #ec5242;
 }
 
 .mainNavBtn {
-  color: #ef513c;
+  color: #ec5242;
   background-color: transparent;
   padding: 10px 15px;
-  border: 3px solid #ef513c;
+  border: 3px solid #ec5242;
   font-size: inherit;
   font-weight: inherit;
   cursor: pointer;
@@ -108,9 +112,9 @@ ul {
 
 .mainNavBtn:hover {
   color: #fff;
-  background-color: #ef513c;
+  background-color: #ec5242;
   padding: 10px 15px;
-  border: 3px solid #ef513c;
+  border: 3px solid #ec5242;
   transition: 0.5s;
 }
 
@@ -132,8 +136,21 @@ ul {
   margin: auto;
 }
 
-.mainHeading img {
-  width: 100%;
+.mainHeading h2 {
+  color: #ec5242;
+  font-size: 1.4em;
+  font-weight: 500;
+  line-height: 90%;
+}
+
+.mainHeading h1 {
+  color: rgba(236, 82, 66, 0.5);
+  font-size: 1.9em;
+  font-weight: 900;
+  line-height: 110%;
+  background-image: url(./images/Text-bg.png);
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .message {
@@ -197,8 +214,9 @@ ul {
 }
 
 .sectionTitle hr {
+  height: 0;
   width: 55px;
-  border: 1px solid #ef513c;
+  border: 0.5px solid #ec5242;
   margin-top:10px;
 }
 
@@ -224,7 +242,7 @@ ul {
 
 .progTitle {
   flex: 1;
-  color: #ef513c;
+  color: #ec5242;
 }
 
 .progDescribtion {
@@ -236,7 +254,7 @@ ul {
 
 .seeAllProg {
   padding: 15px 25px;
-  background-color: #ef513c;
+  background-color: #ec5242;
   font-size: 1.1em;
   color: #f5f5f5;
   text-align: center;
@@ -276,7 +294,7 @@ ul {
 
 .speakerTitle {
   margin-top: 5px;
-  color: #ef513c;
+  color: #ec5242;
   font-size: .9em;
   font-style: italic;
   font-weight: 600;
@@ -296,6 +314,50 @@ ul {
   font-weight: 500;
 }
 
+/* ############ Partners Section ############ */
+
+.partners {
+  background-color: #272a32;
+}
+
+.partnersImg {
+  width: 95%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.partnerImg:hover {
+  color: #ec5242;
+}
+
+.partnerImg {
+  height: 35px;
+  width: auto;
+}
+
+/* ############ Footer ############ */
+
+footer .sectionCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+footer img {
+  width: 300px;
+}
+
+footer p {
+  font-size: 1.1em;
+  font-weight: 500;
+  text-align: center;
+}
 
 /* ###################### Desktop Version ###################### */
 
@@ -305,8 +367,6 @@ ul {
   .topMenu {
     display: block;
     width: 100%;
-    position: fixed;
-    top: 0;
     background-color: #3e3e3e;
   }
 
@@ -332,7 +392,7 @@ ul {
   }
 
   .topMenu a:hover {
-    color: #ef513c;
+    color: #ec5242;
   }
 
   /* ############ Main nav Menu ############ */
@@ -362,6 +422,10 @@ ul {
     display: block;
   }
 
+  .logo img{
+    width: 80%;
+  }
+
   #mainNav ul {
     display: flex;
     align-items: center;
@@ -384,7 +448,7 @@ ul {
   /* ############ Hero Section ############ */
   .hero {
     width: 100%;
-    margin-top: 113px;
+    margin-top: 80px;
     height: 855px;
     background-image: url(./images/desktop-bg.png);
     background-repeat: no-repeat;
@@ -403,8 +467,13 @@ ul {
     margin: auto;
   }
   
-  .mainHeading img {
-    width: auto;
+  .mainHeading h2 {
+    font-size: 3.5em;
+  }
+  
+  .mainHeading h1 {
+    font-size: 5em;
+    line-height: 100%;
   }
   
   .message {
@@ -535,5 +604,19 @@ ul {
     margin-top: 15px;
     font-size: 15px;
     font-weight: 500;
+  }
+
+  /* ############ Partners Section ############ */
+
+  .partnersImg {
+    max-width: 1100px;
+    width: 98%;
+    justify-content: space-between;
+  }
+
+  /* ############ Footer ############ */
+
+  footer .sectionCont {
+    flex-direction: row;
   }
 }
