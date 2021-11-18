@@ -1,0 +1,439 @@
+/* ############ Reset Styling ############ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ############ General Changes ############ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #272a31;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #ec5242;
+}
+
+ul {
+  list-style: none;
+}
+
+.sectionCont {
+  padding: 60px 0;
+  width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+}
+
+.sectionTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionTitle h2 {
+  width: 80%;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sectionTitle hr {
+  height: 0;
+  width: 40px;
+  border: 0.5px solid #ec5242;
+  margin-top: 15px;
+}
+
+/* ###################### Mobile Version ###################### */
+
+/* ############ Top nav Menu ############ */
+
+.topMenu {
+  display: none;
+}
+
+/* ############ Main nav Menu ############ */
+
+.mainMenu {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+.mainMenuCont {
+  width: 85%;
+  margin: 0 auto;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 65%;
+}
+
+#mainNav {
+  display: none;
+}
+
+#mainNav.show {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  padding: 27px 7.55%;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(4px);
+}
+
+#mainNav .fa-times {
+  color: #fff;
+}
+
+#mainNav ul {
+  padding-top: 50px;
+  padding-left: 20px;
+}
+#mainNav ul li {
+  margin-top: 30px;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.aboutLink {
+  color: #ec5242;
+}
+
+.mainNavBtn {
+  color: #ec5242;
+  background-color: transparent;
+  padding: 10px 15px;
+  border: 3px solid #ec5242;
+  font-size: inherit;
+  font-weight: inherit;
+  cursor: pointer;
+}
+
+.mainNavBtn:hover {
+  color: #fff;
+  background-color: #ec5242;
+  padding: 10px 15px;
+  border: 3px solid #ec5242;
+  transition: 0.5s;
+}
+
+/* ############ Hero Section ############ */
+
+.hero {
+  width: 100%;
+  padding-top: 50px;
+  background-image: url(./images/mobile-hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: 75%;
+  background-size: cover;
+  height: auto;
+  background-color: #f7f7f8;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.hero h1 {
+  color: #ec5242;
+  font-size: 1.9em;
+  font-weight: 900;
+  line-height: 110%;
+  text-align: center;
+}
+
+.message {
+  width: 95%;
+  margin: 20px auto;
+  padding: 1em 1em;
+  border: 1px solid #d3d3d3;
+  background-color: #fff;
+  line-height: 1.9em;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.contactUs {
+  width: 90%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.contactLink {
+  color: black;
+  font-weight: 600;
+  padding-bottom: 2px;
+  border-bottom: 1px solid black;
+}
+
+/* ############ CES Logo Section ############ */
+
+.CESLogo {
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.CESLogo p {
+  margin-top: 15px;
+  font-size: 0.9em;
+  font-weight: 500;
+  text-align: center;
+}
+
+.LogoBox {
+  width: 95%;
+  margin-top: 30px;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #d3d3d3;
+}
+
+.LogoBox img {
+  width: 70%;
+}
+
+/* ############ Last Events Section ############ */
+
+.pastEvents p {
+  margin-top: 15px;
+  font-size: 0.9em;
+  font-weight: 500;
+  text-align: center;
+}
+
+.pastEventsImg {
+  width: 90%;
+  margin-top: 20px;
+}
+
+.cesImg img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* ############ Footer ############ */
+
+footer {
+  background-color: #272a31;
+}
+
+footer .sectionCont {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+footer img {
+  width: 130px;
+}
+
+footer p {
+  color: #d3d3d3;
+  font-size: 0.9em;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* ###################### Desktop Version ###################### */
+
+@media only screen and (min-width: 768px) {
+  /* ############ Global Changes ############ */
+
+  .sectionTitle h2 {
+    width: 100%;
+    font-size: 2em;
+  }
+
+  .sectionTitle hr {
+    height: 0;
+    width: 40px;
+    border: 0.5px solid #ec5242;
+    margin-top: 20px;
+  }
+
+  /* ############ Top nav Menu ############ */
+
+  .topMenu {
+    display: block;
+    width: 100%;
+    background-color: #3e3e3e;
+  }
+
+  #topNav {
+    max-width: 1100px;
+    width: 98%;
+    height: 36px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .topMenu ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .topMenu a {
+    color: #fff;
+  }
+
+  .topMenu a:hover {
+    color: #ec5242;
+  }
+
+  /* ############ Main nav Menu ############ */
+
+  .mainMenu {
+    top: 36px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+  }
+
+  .mainMenuCont {
+    max-width: 1100px;
+    width: 98%;
+    height: 80px;
+  }
+
+  .mainMenuCont .fa-bars {
+    display: none;
+  }
+
+  #mainNav .fa-times {
+    display: none;
+  }
+
+  #mainNav {
+    display: block;
+  }
+
+  .logo img {
+    width: 80%;
+  }
+
+  #mainNav ul {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+  }
+
+  #mainNav ul li {
+    color: #888;
+  }
+
+  #mainNav ul {
+    padding-top: 0;
+    padding-left: 0;
+  }
+
+  #mainNav ul li {
+    margin-top: 0px;
+    font-size: 1em;
+  }
+
+  /* ############ Hero Section ############ */
+
+  .hero {
+    margin-top: 80px;
+    background-image: url(./images/about-bg.png);
+
+    background-position: 100%;
+    background-size: contain;
+  }
+
+  .hero h1 {
+    font-size: 4em;
+    line-height: 100%;
+  }
+
+  .message {
+    width: 60%;
+    margin: 50px auto;
+    font-size: 1.1em;
+    font-weight: 500;
+  }
+
+  /* ############ CES Logo Section ############ */
+
+  .CESLogo {
+    border-bottom: 1px solid #d3d3d3;
+  }
+
+  .CESLogo p {
+    margin-top: 30px;
+    font-size: 1.1em;
+  }
+
+  .LogoBox {
+    width: 50%;
+    margin-top: 60px;
+  }
+
+  /* ############ Last Events Section ############ */
+
+  .pastEvents p {
+    margin-top: 30px;
+    font-size: 1.1em;
+  }
+
+  .pastEventsImg {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .cesImg {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .cesImg img {
+    width: 45%;
+  }
+
+  /* ############ Footer ############ */
+
+  footer img {
+    width: 250px;
+  }
+
+  footer p {
+    color: #d3d3d3;
+    font-size: 1.1em;
+  }
+}
