@@ -56,7 +56,7 @@ ul {
   align-items: center;
 }
 
-.logo img {
+.mainMenu img {
   width: 65%;
 }
 
@@ -88,6 +88,7 @@ ul {
   padding-top: 50px;
   padding-left: 20px;
 }
+
 #mainNav ul li {
   margin-top: 30px;
   color: #fff;
@@ -148,7 +149,7 @@ ul {
   font-weight: 900;
   line-height: 110%;
   background-image: url(./images/Text-bg.png);
-  background-clip: text;
+  background-clip: border-box;
   -webkit-background-clip: text;
 }
 
@@ -329,13 +330,13 @@ ul {
   justify-content: center;
 }
 
-.partnerImg:hover {
-  color: #ec5242;
-}
-
 .partnerImg {
   height: 35px;
   width: auto;
+}
+
+.partnerImg:hover {
+  color: #ec5242;
 }
 
 /* ############ Footer ############ */
@@ -349,13 +350,13 @@ footer .sectionCont {
   gap: 20px;
 }
 
-footer img {
+.footer img {
   width: 130px;
 }
 
 footer p {
   font-size: 0.9em;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -430,18 +431,13 @@ footer p {
     display: flex;
     align-items: center;
     gap: 60px;
+    padding-top: 0;
+    padding-left: 0;
   }
 
   #mainNav ul li {
     color: #888;
-  }
-
-  #mainNav ul {
-    padding-top: 0;
-    padding-left: 0;
-  }
-  #mainNav ul li {
-    margin-top: 0px;
+    margin-top: 0;
     font-size: 1em;
   }
 
@@ -461,6 +457,7 @@ footer p {
     width: 98%;
     margin: auto;
   }
+
   .mainHeading {
     padding-top: 80px;
     width: auto;
@@ -487,7 +484,7 @@ footer p {
 
   .dateAndLocation {
     width: 60%;
-    margin: 0px;
+    margin: 0;
     margin-top: 35px;
     text-align: left;
   }
@@ -502,7 +499,7 @@ footer p {
     margin-top: 10px;
     font-size: 20px;
     font-weight: 600;
-    padding-bottom: 0px;
+    padding-bottom: 0;
   }
 
   /* ############ Main Program Section ############ */

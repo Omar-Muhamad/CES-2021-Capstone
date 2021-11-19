@@ -118,6 +118,7 @@ ul {
   padding-top: 50px;
   padding-left: 20px;
 }
+
 #mainNav ul li {
   margin-top: 30px;
   color: #fff;
@@ -254,11 +255,11 @@ footer .sectionCont {
   gap: 20px;
 }
 
-footer img {
+.footer img {
   width: 130px;
 }
 
-footer p {
+.footer p {
   color: #d3d3d3;
   font-size: 0.9em;
   font-weight: 500;
@@ -350,19 +351,13 @@ footer p {
     display: flex;
     align-items: center;
     gap: 60px;
-  }
-
-  #mainNav ul li {
-    color: #888;
-  }
-
-  #mainNav ul {
     padding-top: 0;
     padding-left: 0;
   }
 
   #mainNav ul li {
-    margin-top: 0px;
+    color: #888;
+    margin-top: 0;
     font-size: 1em;
   }
 
@@ -371,7 +366,6 @@ footer p {
   .hero {
     margin-top: 80px;
     background-image: url(./images/about-bg.png);
-
     background-position: 100%;
     background-size: contain;
   }
@@ -428,11 +422,11 @@ footer p {
 
   /* ############ Footer ############ */
 
-  footer img {
+  .footer img {
     width: 250px;
   }
 
-  footer p {
+  .footer p {
     color: #d3d3d3;
     font-size: 1.1em;
   }
