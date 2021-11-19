@@ -615,4 +615,12 @@ footer p {
   footer .sectionCont {
     flex-direction: row;
   }
+
+  .footer img {
+    width: 250px;
+  }
+
+  .footer p {
+    font-size: 1.1em;
+  }
 }

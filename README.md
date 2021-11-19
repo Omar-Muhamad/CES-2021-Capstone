@@ -1,65 +1,42 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Capstone Project 1
 
-> One paragraph statement about the project.
+  **What I did in this project:**
 
-![screenshot](./app_screenshot.png)
+  **Previous project changes:**
+  1. Created project files using githup work flow.
+  2. Make two pages Home and about.
+  3. Add mobile menu and Add speakes section dynamically using JS.
+  4. Change the content to CES event.
+  5. stick to design, colors, and fonts in project requirments. 
+  
 
-Additional description about the project and its features.
+
+# Site Live Demo
+  [Live Demo Link](https://omar-muhamad.github.io/Capstone-Project-1/)
+
+
+# Site Screenshots Mockup
+
+  ![screenshot](./images/WebSite-Mockup.png) 
+  
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+- HTML.
+- CSS.
+- JavaScript.
+- Linters.
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Omar Muhammad**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+- GitHub: [@Omar-Muhamad](https://github.com/Omar-Muhamad)
+- Twitter: [@Eng_OmarMuhamad](https://twitter.com/Eng_OmarMuhamad)
+- LinkedIn: [@eng-omarmuhammad](https://www.linkedin.com/in/eng-omarmuhammad/)
 
 ## Show your support
 
@@ -67,10 +44,5 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thanks to [Cindy Shin](https://omar-muhamad.github.io/Capstone-Project-1/) I used her design to build my project
 
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
