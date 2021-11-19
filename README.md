@@ -44,5 +44,5 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Thanks to [Cindy Shin](https://omar-muhamad.github.io/Capstone-Project-1/) I used her design to build my project
+- Thanks to [Cindy Shin](https://www.behance.net/adagio07) I used her design to build my project.
 
