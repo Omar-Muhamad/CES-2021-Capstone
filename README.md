@@ -4,7 +4,6 @@
 
   **What I did in this project:**
 
-  **Previous project changes:**
   1. Created project files using githup work flow.
   2. Make two pages Home and about.
   3. Add mobile menu and Add speakes section dynamically using JS.
