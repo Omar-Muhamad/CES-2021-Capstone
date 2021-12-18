@@ -1,5 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+**This Project about CES tech summit 2021 contains the program, speakers, and sponsers**
+
 # Capstone Project 1
 
   **What I did in this project:**
