@@ -1,8 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-**This Project about CES tech summit 2021 contains the program, speakers, and sponsers**
+# CES-2021 (Capstone)
 
-# Capstone Project 1
+## Description
+**This Project about CES tech summit 2021 contains the program, speakers, and sponsers**
 
   **What I did in this project:**
 
@@ -15,7 +16,7 @@
 
 
 # Site Live Demo
-  [Live Demo Link](https://omar-muhamad.github.io/Capstone-Project-1/)
+  [Live Demo Link](https://omar-muhamad.github.io/CES-2021-Capstone/)
 
 
 # Site Screenshots Mockup
