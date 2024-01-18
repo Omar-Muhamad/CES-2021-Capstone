@@ -3,15 +3,15 @@
 # CES-2021 (Capstone)
 
 ## Description
-**This app is a Landing page for CES tech summit 2022 that has a homepage contains info about the program, speakers, and sponsers and about page that has info about the CES and it's history.**
+**This app is a Landing page for CES Tech Summit 2022 that has a homepage containing info about the program, speakers, and sponsors and an about page that has info about the CES and its history.**
 
 
 ## Key Features
 
-  1. Use githup workflow.
-  2. The app have two pages `Home` and `About`.
+  1. Use GitHub workflow.
+  2. The app has two pages `Home` and `About`.
   3. Mobile responsive design.
-  4. Mobile menu and speakes section are implemented using JavaScript.
+  4. The mobile menu and speakers section are implemented using JavaScript.
   
 
 
